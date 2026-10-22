@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<title>Flexo Tech JSC — Chemical Raw Materials Trading</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<script src="./image-slot.js"></script>
+<template id="__bundler_thumbnail"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" fill="#5980a6"></rect><text x="50" y="60" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="28" fill="#f2f2f3">FT</text></svg></template>
+<style>
+html{scroll-behavior:smooth}
+body{margin:0}
+a{color:var(--color-accent-700)}
+a:hover{color:var(--color-accent-900)}
+</style>
+</helmet>
+<div style="min-height:100vh;background:var(--color-bg);color:var(--color-text);font-family:var(--font-body)">
+
+<header style="position:sticky;top:0;z-index:10;background:var(--color-bg);border-bottom:1px solid var(--color-divider)">
+  <nav class="nav" style="max-width:1200px;margin:0 auto;padding:14px 24px;flex-wrap:wrap">
+    <div class="nav-brand" style="display:flex;align-items:center;gap:10px;letter-spacing:0.04em">
+      <span style="width:14px;height:14px;background:var(--color-accent);display:block"></span>JSC FLEXO TECH
+    </div>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#logistics">Logistics</a>
+    <a href="#suppliers">For suppliers</a>
+    <a href="#contact" class="btn btn-primary blueprint" style="white-space:nowrap;flex:none;color:var(--color-bg)"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>Contact us</a>
+  </nav>
+</header>
+
+<main style="max-width:1200px;margin:0 auto;padding:0 24px">
+
+  <section data-screen-label="Hero" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:48px;padding:88px 0 72px;align-items:end;border-bottom:1px solid var(--color-divider)">
+    <div>
+      <div class="card-kicker" style="font-size:12px;margin-bottom:18px">Chemical raw materials trading · Est. 2018</div>
+      <h1 style="font-size:clamp(44px,7vw,84px);line-height:0.98;margin:0 0 24px;text-wrap:balance">Industrial chemicals, sourced and delivered across two continents.</h1>
+      <p style="font-size:18px;max-width:560px;color:var(--color-neutral-800);text-wrap:pretty">Flexo Tech is an independent trading and distribution company based in Georgia. We supply isocyanates, polyols, solvents and pigments to manufacturers of PU systems, flexible packaging, adhesives and printing inks.</p>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:28px">
+        <a href="#products" class="btn btn-primary blueprint" style="white-space:nowrap;flex:none;color:var(--color-bg);font-size:16px;padding:12px 22px"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>View portfolio</a>
+        <a href="#suppliers" class="btn btn-secondary" style="white-space:nowrap;flex:none;font-size:16px;padding:12px 22px">Become a supplier</a>
+      </div>
+    </div>
+    <div class="blueprint" style="padding:0">
+      <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+      <div style="display:flex;justify-content:space-between;padding:10px 16px;border-bottom:1px solid var(--color-divider);font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-neutral-700)"><span>Company sheet</span><span>FT-01</span></div>
+      <div style="display:grid;grid-template-columns:1fr 1fr">
+        <div style="padding:22px 16px;border-right:1px solid var(--color-divider);border-bottom:1px solid var(--color-divider)"><div style="font-family:var(--font-heading);font-weight:600;font-size:44px;line-height:1">€25M</div><div style="font-size:13px;color:var(--color-neutral-700);margin-top:6px">Approx. annual turnover</div></div>
+        <div style="padding:22px 16px;border-bottom:1px solid var(--color-divider)"><div style="font-family:var(--font-heading);font-weight:600;font-size:44px;line-height:1">2018</div><div style="font-size:13px;color:var(--color-neutral-700);margin-top:6px">Founded in Kutaisi</div></div>
+        <div style="padding:22px 16px;border-right:1px solid var(--color-divider)"><div style="font-family:var(--font-heading);font-weight:600;font-size:44px;line-height:1">6</div><div style="font-size:13px;color:var(--color-neutral-700);margin-top:6px">Target markets</div></div>
+        <div style="padding:22px 16px"><div style="font-family:var(--font-heading);font-weight:600;font-size:44px;line-height:1">5</div><div style="font-size:13px;color:var(--color-neutral-700);margin-top:6px">Product categories</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section data-screen-label="Photo band" style="padding:56px 0;border-bottom:1px solid var(--color-divider)"><figure class="blueprint duotone" style="margin:0"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i><div style="position:relative;aspect-ratio:21 / 8;overflow:hidden"><image-slot id="hero-photo" shape="rect" placeholder="Drop photo: chemical tank terminal / warehouse"></image-slot></div><figcaption style="padding:8px 12px;margin:0;border-top:1px solid var(--color-divider);font-size:12px;color:var(--color-neutral-700)">Fig. 01 — Licensed chemical storage, Georgia</figcaption></figure></section>
+
+  <section id="about" data-screen-label="About" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:48px;padding:80px 0;border-bottom:1px solid var(--color-divider);scroll-margin-top:70px">
+    <div>
+      <div class="card-kicker" style="font-size:12px;margin-bottom:12px">01 — About</div>
+      <h2 style="font-size:44px;text-wrap:balance">A regional hub at the crossroads of Europe and Asia.</h2>
+    </div>
+    <div style="font-size:17px;color:var(--color-neutral-800)">
+      <p style="text-wrap:pretty">We import, store and resell chemical raw materials for industrial consumers across the CIS, Eastern Europe and emerging markets in the Middle East and Asia.</p>
+      <p style="text-wrap:pretty">Georgia's free trade agreements with the EU and China let us operate as an efficient distribution point, with product held in licensed third-party chemical warehouses in Georgia and partner markets.</p>
+      <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:20px">
+        <span class="tag tag-accent">Bulgaria</span><span class="tag tag-accent">Serbia</span><span class="tag tag-accent">Turkey</span><span class="tag tag-accent">Georgia</span><span class="tag tag-accent">Armenia</span><span class="tag tag-accent">Azerbaijan</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="products" data-screen-label="Products" style="padding:80px 0;border-bottom:1px solid var(--color-divider);scroll-margin-top:70px">
+    <div class="card-kicker" style="font-size:12px;margin-bottom:12px">02 — Product portfolio</div>
+    <h2 style="font-size:44px;margin-bottom:36px">What we trade</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,260px),1fr));gap:28px">
+      <sc-for list="{{ products }}" as="p" hint-placeholder-count="5">
+        <div class="card blueprint" style="padding:22px;gap:12px">
+          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          <div class="card-kicker" style="font-size:11px">{{ p.no }}</div>
+          <div class="card-title" style="font-size:26px">{{ p.name }}</div>
+          <p class="card-body" style="font-size:15px;opacity:1;color:var(--color-neutral-800)">{{ p.items }}</p>
+          <div style="border-top:1px solid var(--color-divider);padding-top:10px;font-size:13px;color:var(--color-neutral-700)">{{ p.use }}</div>
+        </div>
+      </sc-for>
+    </div>
+  </section>
+
+  <section id="logistics" data-screen-label="Logistics" style="padding:80px 0;border-bottom:1px solid var(--color-divider);scroll-margin-top:70px">
+    <div class="card-kicker" style="font-size:12px;margin-bottom:12px">03 — Logistics</div>
+    <h2 style="font-size:44px;margin-bottom:36px;max-width:720px;text-wrap:balance">Bulk or drummed, by sea, road and rail.</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:28px;margin-bottom:40px"><figure class="blueprint duotone" style="margin:0"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i><div style="position:relative;aspect-ratio:4 / 3;overflow:hidden"><image-slot id="photo-port" shape="rect" placeholder="Drop photo: Poti / Batumi port, containers"></image-slot></div><figcaption style="padding:8px 12px;margin:0;border-top:1px solid var(--color-divider);font-size:12px;color:var(--color-neutral-700)">Fig. 02 — Sea freight via Black Sea ports</figcaption></figure><figure class="blueprint duotone" style="margin:0"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i><div style="position:relative;aspect-ratio:4 / 3;overflow:hidden"><image-slot id="photo-iso" shape="rect" placeholder="Drop photo: ISO tank / flexitank / drums"></image-slot></div><figcaption style="padding:8px 12px;margin:0;border-top:1px solid var(--color-divider);font-size:12px;color:var(--color-neutral-700)">Fig. 03 — ISO tanks, flexitanks and 200 L drums</figcaption></figure></div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(clamp(25%,(900px - 100%) * 999,50%),clamp(0%,(520px - 100%) * 999,100%)),1fr));border-top:1px solid var(--color-divider);border-left:1px solid var(--color-divider)">
+      <div style="padding:24px;border-right:1px solid var(--color-divider);border-bottom:1px solid var(--color-divider)"><h4 style="font-size:22px">Formats</h4><p style="color:var(--color-neutral-800);margin:0">200 L drums, 16–24 MT flexitanks and ISO tanks — matched to customer requirements.</p></div>
+      <div style="padding:24px;border-right:1px solid var(--color-divider);border-bottom:1px solid var(--color-divider)"><h4 style="font-size:22px">Ports</h4><p style="color:var(--color-neutral-800);margin:0">Sea freight via Istanbul, Poti and Batumi, with onward distribution by road or rail.</p></div>
+      <div style="padding:24px;border-right:1px solid var(--color-divider);border-bottom:1px solid var(--color-divider)"><h4 style="font-size:22px">Storage</h4><p style="color:var(--color-neutral-800);margin:0">Professional handling in certified, licensed chemical warehouses.</p></div>
+      <div style="padding:24px;border-right:1px solid var(--color-divider);border-bottom:1px solid var(--color-divider)"><h4 style="font-size:22px">Compliance</h4><p style="color:var(--color-neutral-800);margin:0">Full regulatory and customs compliance in every destination market.</p></div>
+    </div>
+  </section>
+
+  <section id="suppliers" data-screen-label="Suppliers" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,360px),1fr));gap:48px;padding:80px 0;border-bottom:1px solid var(--color-divider);scroll-margin-top:70px">
+    <div>
+      <div class="card-kicker" style="font-size:12px;margin-bottom:12px">04 — For suppliers</div>
+      <h2 style="font-size:44px;text-wrap:balance">A dependable customer for producers.</h2>
+      <p style="font-size:17px;color:var(--color-neutral-800);text-wrap:pretty">We are expanding our solvent portfolio and looking for quality-certified sources — currently Ethyl Acetate, at around 200 MT per year with ~10% annual growth.</p>
+      <p style="font-size:15px;color:var(--color-neutral-700)">Trade references, bank details and vendor-qualification documents available on request.</p>
+    </div>
+    <ol style="list-style:none;margin:0;padding:0;border-top:1px solid var(--color-divider)">
+      <sc-for list="{{ offers }}" as="o" hint-placeholder-count="6">
+        <li style="display:grid;grid-template-columns:44px 1fr;gap:12px;padding:16px 0;border-bottom:1px solid var(--color-divider);font-size:16px">
+          <span style="font-family:var(--font-heading);font-weight:600;color:var(--color-accent-700)">{{ o.no }}</span><span>{{ o.text }}</span>
+        </li>
+      </sc-for>
+    </ol>
+  </section>
+
+  <section id="contact" data-screen-label="Contact" style="padding:80px 0 96px;scroll-margin-top:70px">
+    <div class="card-kicker" style="font-size:12px;margin-bottom:12px">05 — Contact</div>
+    <h2 style="font-size:clamp(40px,6vw,64px);margin-bottom:40px">Let's talk supply.</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:28px">
+      <div class="blueprint" style="padding:24px">
+        <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+        <h6 style="color:var(--color-neutral-700)">Purchasing</h6>
+        <p style="font-family:var(--font-heading);font-weight:600;font-size:24px;margin:8px 0 4px"><a href="mailto:purchase@flexo-tech.ge" style="text-decoration:none">purchase@flexo-tech.ge</a></p>
+        <p style="font-family:var(--font-heading);font-weight:600;font-size:24px;margin:0"><a href="tel:+995577591001" style="text-decoration:none">+995 577 591 001</a></p>
+      </div>
+      <div class="blueprint" style="padding:24px">
+        <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+        <h6 style="color:var(--color-neutral-700)">Office</h6>
+        <p style="font-size:17px;margin:8px 0 0">31a N. Ramishvili St.<br>0179 Tbilisi, Georgia</p>
+      </div>
+      <div class="blueprint" style="padding:24px">
+        <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+        <h6 style="color:var(--color-neutral-700)">Legal address</h6>
+        <p style="font-size:17px;margin:8px 0 0">Avtomshenebeli str. 88<br>4600 Kutaisi, Georgia<br><span style="color:var(--color-neutral-700);font-size:14px">ID N: 400236632</span></p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer style="border-top:1px solid var(--color-divider)">
+  <div style="max-width:1200px;margin:0 auto;padding:20px 24px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:13px;color:var(--color-neutral-700)">
+    <span>© 2026 JSC Flexo Tech</span><span>Chemical Raw Materials Trading · Kutaisi · Tbilisi</span>
+  </div>
+</footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      products: [
+        { no: "Cat. 01", name: "Isocyanates", items: "MDI-50, MDI-100, MDI-200 — Lupranate, Wannate, Ongronat grades", use: "PU adhesives, foam, coatings" },
+        { no: "Cat. 02", name: "Polyether polyols", items: "Simple polyether polyols across a range of OH values", use: "PU systems, flexible foam, CASE" },
+        { no: "Cat. 03", name: "Polyester polyols", items: "Complex aliphatic and aromatic polyester polyols", use: "PU adhesives, laminates, coatings" },
+        { no: "Cat. 04", name: "Solvents", items: "Ethyl acetate, MEK, toluene, isopropanol, MEG", use: "Adhesives, inks, coatings, cleaning" },
+        { no: "Cat. 05", name: "Pigments & additives", items: "Organic and inorganic pigments, catalysts", use: "Printing inks, coatings, PU colorants" }
+      ],
+      offers: [
+        "Committed, regular purchase volumes with predictable order frequency",
+        "Long-term framework with price and volume agreements",
+        "Handling and storage in certified chemical facilities",
+        "Local market knowledge and established customer relationships",
+        "Prompt payment terms as mutually agreed",
+        "Full regulatory and customs compliance in destination markets"
+      ].map((text, i) => ({ no: String(i + 1).padStart(2, "0"), text }))
+    };
+  }
+}
+</script>
+</body>
+</html>
